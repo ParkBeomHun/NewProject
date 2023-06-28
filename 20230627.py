@@ -4,10 +4,10 @@
 #이거도 한줄짜리 주석
 
 """
-Project : My first Python Program
-작성자 : 박범훈
-작성일 : 20230628
-"""
+#Project : My first Python Program
+#작성자 : 박범훈
+#작성일 : 20230628
+
 print("Hello World ! Iam glad to meet you !")
 my_name = "Park BeomHun"
 print("My name is",my_name,".")
@@ -27,12 +27,18 @@ print("x-y:",sub_xy)
 print("x*y:",mul_xy)
 print("x/y:",div_xy)        #/는 자동으로 double형으로 알아서 나눠줌
 print("x//y:",int_div_xy)   #//는 정수 나누기
+"""
+
+
+
+
+
 
 """"
-Project : My simple python program with data input
-작성자 : 박범훈
-작성일 : 20230628
-"""
+#Project : My simple python program with data input
+#작성자 : 박범훈
+#작성일 : 20230628
+
 
 "definition of variables"
 x_str = input("input x = ")
@@ -54,7 +60,12 @@ print("x // y = ",int_div)
 
 print("")
 print("")
+"""
 
+
+
+
+"""
 #파이썬의 여러 자료형들
 x=1
 print("x = ",x)
@@ -79,3 +90,20 @@ print("type(x) = ",type(x))     #dict : 딕셔너리 / key와 value로 구분 / 
 x = {1,2,3,4}
 print("x = ",x)
 print("type(x) = ",type(x))     #set : 집합
+"""
+
+"""
+x_str = input("promt string : ")        #input()으로 넣으면 str 형식으로 입력됨
+y_str = input("promt string : ")
+print(x_str)
+print(y_str)
+print("type of x_str, y_str : ",type(x_str),type(y_str))
+
+sum_str = x_str + y_str
+print("sum_str : ",sum_str)
+
+x_int = int(x_str)                      #data의 형식을 int로 바꿔줌
+y_int = int(y_str)
+sum_int = x_int + y_int
+print("sum_int : ",sum_int)
+"""
