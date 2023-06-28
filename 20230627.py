@@ -92,6 +92,10 @@ print("x = ",x)
 print("type(x) = ",type(x))     #set : 집합
 """
 
+
+
+
+
 """
 x_str = input("promt string : ")        #input()으로 넣으면 str 형식으로 입력됨
 y_str = input("promt string : ")
@@ -108,6 +112,67 @@ sum_int = x_int + y_int
 print("sum_int : ",sum_int)
 """
 
+
+
+
+
 """
-실수 했어
+n = int(input('input n to calculate sum of [0..n] : '))
+nSum = 0
+for i in  range(0, n+1):
+    nSum += i
+    print(i)
+
+print("Sum of [0..%d] = %d" %(n, nSum))
+"""
+
+
+
+
+"""
+#-1이 입력되기 전까지 정수 data를 입력 받고 양의 정수의 합을 구하는 프로그램
+
+MAX_NUM_DATA = 100
+num_data = 0
+data_sum = 0
+print("input (up to {}) integer data" .format(MAX_NUM_DATA))
+
+for i in range(MAX_NUM_DATA):
+    data = int(input("Data(-1 to finish) = "))
+    num_data = num_data+1
+    if data == -1:
+        break
+    elif data <= 0:
+        continue
+    else:
+        data_sum = data_sum + data
+
+print("Totla %d data input, sum of positive data = %d" %(num_data,data_sum))
+"""
+
+
+
+
+
+"""
+#for문을 사용해서 int를 이어서 받고 각각을 나눈후 최대 최소 구하는 프로그램
+
+TARGET_NUM_DATA = 10
+int_str= input("input %d integer data in one line" %(TARGET_NUM_DATA))
+L_data = list(map(int, int_str.split(sep=' ')))
+print("input data = ",L_data)
+
+data_min = data_max = L_data[0]
+
+for i in range(1 , len(L_data)):
+    data = L_data[i]
+    if(data<data_min):
+        data_min = data
+    elif(data>data_max):
+        data_max = data
+    else:
+        continue
+
+print("data_min = %d, data_max = %d)" %(data_min, data_max))
+
 """
