@@ -34,3 +34,34 @@ print(L2)
 #range(k,n,r) : k ~ n-1까지 r씩 증가하는 정수 생성
 """
 
+
+
+
+"""
+TARGET_NUM_DATA = 15
+sample_list = list()
+
+numdata = 0
+data = 0
+mindata = maxdata = sumdata = length = 0
+
+for i in range(TARGET_NUM_DATA):
+    data = int(input())
+    sample_list.append(data)
+    numdata = numdata + 1
+
+mindata = min(sample_list)
+maxdata = max(sample_list)
+sumdata = sum(sample_list)
+length = len(sample_list)
+
+print("Max : {}, Min : {}, Sum : {}, Length : {}".format(maxdata,mindata,sumdata,length))
+
+"""
+
+
+
+
+x = 16
+print(x)
+print(bin(x))
