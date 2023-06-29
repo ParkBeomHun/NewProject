@@ -98,7 +98,7 @@ print("type(x) = ",type(x))     #set : 집합
 
 
 
-sa
+
 
 """
 x_str = input("promt string : ")        #input()으로 넣으면 str 형식으로 입력됨
